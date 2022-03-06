@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+body{
+    padding: 0 auto;
+    margin: 0 auto;
+    background-color: rgb(6, 48, 65);
+    color: white;
+    text-align: center;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+footer{
+    font-family: Tahoma;
+    font-size: 10pt;
+    padding: 50px 0px;
+}
+
+#body{
+    display: block;
+    position: absolute;
+    width: 90%;
+    margin: 5%;
+}
+
+
+#label{
+    font-family: 'Merriweather', serif;
+    padding: 20px 0px;
+}
+
+#start{
+    padding: 0px;
+}
+
+#img2{
+    display: none;
+}
+
+
+#btn-start{
+    display: inline-block;
+    background-color: rgb(6, 48, 65);
+    border: 5px solid white;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 14pt;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}
+#btn-start:hover{
+    background-color: rgb(10, 64, 78);
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px) {
+    #portal{
+        display: inline-block;
+        margin: 1rem auto 0rem auto;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    h2, #btn-start{
+        font-size: 12pt;
+    }
+    h1{
+        font-size: 14pt;
+    }
+    #img1{
+        display: none;
+    }
+    #img2{
+        display: block;
+    }
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(6, 48, 65);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+    width: 6px;
+    border-radius: 10px;
+}

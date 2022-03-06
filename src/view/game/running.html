@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Molfedd | Jogos | Corrida</title>
+        <link rel="stylesheet" type="text/css" href="../../../css/game-running.css">
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <a href="../home.html">
+                    <figure id="logo">
+                        <img src="../../../img/logo1.png">
+                    </figure>
+                </a>
+                <br>
+                <a class="btn right-btn" href="menu_game.html">Voltar</a>
+            </div>
+        </header>
+        <hr>
+        <div class="div-path">
+            <a class="a-path" href="../home.html"><p class="path">Página inicial</p></a>
+            <a class="a-path" href="../material.html"><p class="path"><img src="../../../img/marcador_path.png"> Jogos & Materiais</p></a>
+            <a class="a-path" href="menu_game.html"><p class="path"><img src="../../../img/marcador_path.png">  Jogos</p></a>
+            <a class="a-path" href="#"><p class="path"><img src="../../../img/marcador_path.png">  Corrida</p></a>
+        </div>
+        <hr>
+        <main>
+            <div id="body">
+                <h1>CORRIDA</h1>
+                <br>
+                <div class="running">
+                    <div class="p-a">SAÍDA</div>
+                    <div id="a1" class="p-a">01</div>
+                    <div id="a2" class="p-a">02</div>
+                    <div id="a3" class="p-a">03</div>
+                    <div id="a4" class="p-a">04</div>
+                    <div id="a5" class="p-a">05</div>
+                    <div id="a6" class="p-a">06</div>
+                    <div id="a7" class="p-a">07</div>
+                    <div id="a8" class="p-a">08</div>
+                    <div id="a9" class="p-a">09</div>
+                    <div id="a10" class="p-a">10</div>
+                    <div id="a11" class="p-a">11</div>
+                    <div id="a12" class="p-a">12</div>
+                    <div id="a13" class="p-a">13</div>
+                    <div id="a14" class="p-a">14</div>
+                    <div id="a15" class="p-a">15</div>
+                    <div id="a16" class="p-a">16</div>
+                    <div id="a17" class="p-a">17</div>
+                    <div id="a18" class="p-a">18</div>
+                    <div id="a19" class="p-a">19</div>
+                    <div id="a20" class="p-a">20</div>
+                    <div id="a21" class="p-a">21</div>
+                    <div id="a22" class="p-a">22</div>
+                    <div id="a23" class="p-a">23</div>
+                    <div id="a24" class="p-a">24</div>
+                    <div id="a25" class="p-a">25</div>
+                    <div id="a26" class="p-a">26</div>
+                    <div id="a27" class="p-a">27</div>
+                    <div id="a28" class="p-a">28</div>
+                    <div id="a29" class="p-a">29</div>
+                    <div id="a30" class="p-a">30</div>
+                    <div class="p-a">CHEGADA</div>
+                </div>
+                <br>
+                <br>
+                <div class="running">
+                    <div class="p-b">SAÍDA</div>
+                    <div id="b1" class="p-b">01</div>
+                    <div id="b2" class="p-b">02</div>
+                    <div id="b3" class="p-b">03</div>
+                    <div id="b4" class="p-b">04</div>
+                    <div id="b5" class="p-b">05</div>
+                    <div id="b6" class="p-b">06</div>
+                    <div id="b7" class="p-b">07</div>
+                    <div id="b8" class="p-b">08</div>
+                    <div id="b9" class="p-b">09</div>
+                    <div id="b10" class="p-b">10</div>
+                    <div id="b11" class="p-b">11</div>
+                    <div id="b12" class="p-b">12</div>
+                    <div id="b13" class="p-b">13</div>
+                    <div id="b14" class="p-b">14</div>
+                    <div id="b15" class="p-b">15</div>
+                    <div id="b16" class="p-b">16</div>
+                    <div id="b17" class="p-b">17</div>
+                    <div id="b18" class="p-b">18</div>
+                    <div id="b19" class="p-b">19</div>
+                    <div id="b20" class="p-b">20</div>
+                    <div id="b21" class="p-b">21</div>
+                    <div id="b22" class="p-b">22</div>
+                    <div id="b23" class="p-b">23</div>
+                    <div id="b24" class="p-b">24</div>
+                    <div id="b25" class="p-b">25</div>
+                    <div id="b26" class="p-b">26</div>
+                    <div id="b27" class="p-b">27</div>
+                    <div id="b28" class="p-b">28</div>
+                    <div id="b29" class="p-b">29</div>
+                    <div id="b30" class="p-b">30</div>
+                    <div class="p-b">CHEGADA</div>
+                </div>
+                <div class="flex">
+                    <div id="draw">
+                        <h3 id="num">N</h3>
+                        <br>
+                        <button class="btn" onclick="sortear()">Sortear número</button>
+                    </div>
+                </div>
+            </div>
+            <div id="body-a">
+                <div class="left">
+                    <figure>
+                        <img src="../../../img/game/venceu-azul.png">
+                    </figure>
+                </div>
+                <div class="right">
+                    <h3>O JOGADOR AZUL GANHOU!!!</h3>
+                    <br>
+                    <br>
+                    <button class="btn" onclick="reset()">REINICIAR</button>
+                </div>
+            </div>
+            <div id="body-b">
+                <div class="left">
+                    <figure>
+                        <img src="../../../img/game/venceu-vermelho.png">
+                    </figure>
+                </div>
+                <div class="right">
+                    <h3>O JOGADOR VERMELHO GANHOU!!!</h3>
+                    <br>
+                    <br>
+                    <button class="btn" onclick="reset()">REINICIAR</button>
+                </div>
+            </div>
+        </main>
+        <hr>
+        <footer>
+            <div id="footer">
+                <div id="footer-div">
+                    <div id="footer-block">
+                        <div id="footer-txt">
+                            <div class="a-footer">
+                                <a class="footer-a" href="about.html">Sobre</a>
+                                <a class="footer-a" href="terms/terms.html">Termos</a>
+                                <a class="footer-a" href="terms/privacy.html">Privacidade</a>
+                                <a class="footer-a" href="terms/security.html">Segurança</a>
+                                <a class="footer-a" href="terms/advertising.html">Publicidade</a>
+                            </div>
+                            <br>
+                            <p>INSTITUTO VENNTEC DE TECNOLOGIA</p>
+                            <br>
+                            <p>MOLFEDD</p>
+                            <p>Rua Gorbi Oufred Nº 105, Centro, Ventário - Cap., 0000001 - CVC: 039485-000293-00001</p>
+                            <p>E-Mail: atendimento@molfedd.vnt.org</p>
+                        </div>
+                        <div id="footer-img">
+                            <a href="#">
+                                <figure class="fig-rs">
+                                    <img alt="facebook" class="img-rs" src="../../../img/icones/facebook-icon.png">
+                                </figure>
+                            </a>
+                            <a href="#">
+                                <figure class="fig-rs">
+                                    <img alt="instagram"  class="img-rs" src="../../../img/icones/instagram-icon.png">
+                                </figure>
+                            </a>
+                            <a href="#">
+                                <figure class="fig-rs">
+                                    <img alt="e-mail" class="img-rs" src="../../../img/icones/email-icon.png">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>&copy; Molfedd, 2021. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+    <script src="../../../js/running.js"></script>
+</html>

@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather/Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+fieldset{
+    border: none;
+    display: inline-block;
+    width: 100%;
+}
+
+label{
+    padding: 0px 15px;
+    font-size: 11pt;
+}
+
+input{
+    display: block;
+    background-color: rgb(6, 48, 65);
+    border: 2px solid white;
+    padding: 8px 15px;
+    border-radius: 40px;
+    color: white;
+    width: 80%;
+    margin: 5px auto 0px auto;
+}
+
+input::placeholder{
+    color: rgb(136, 163, 173);
+}
+
+input:focus{
+    outline: 0.0;
+}
+
+input[type="checkbox"]{
+    display: initial;
+    width: 15px;
+    margin: 2px;
+}
+
+input.login{
+    float: left;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 0px;
+}
+
+.date-input{
+    display: block;
+    width: 100%;
+}
+
+.date-input input{
+    float: left;
+    display: block;
+    background-color: rgb(6, 48, 65);
+    border: 2px solid white;
+    padding: 8px 3px;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.date-input input#dd{
+    max-width: 50px;
+    width: 20%;
+    float: left;
+}
+
+.date-input input#mm{
+    max-width: 50px;
+    width: 20%;
+}
+
+.date-input input#aa{
+    max-width: 100px;
+    width: 40%;
+}
+
+select{
+    display: block;
+    background-color: rgb(6, 48, 65);
+    border: 2px solid white;
+    padding: 8px 15px;
+    border-radius: 40px;
+    color: white;
+    width: 90%;
+}
+
+select:focus{
+    outline: 0.0;
+}
+
+option{
+    background-color: rgb(6, 48, 65);
+    color: white;
+    text-align: center;
+}
+
+option:focus{
+    outline: 0.0;
+}
+
+/* input::placeholder{
+    color: rgb(136, 163, 173);
+} */
+
+.bt-form{
+    display: block;
+    background-color: rgb(6, 48, 65);
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 12pt;
+    color: white;
+    padding: 10px 20px;
+    width: 60%;
+    margin: auto;
+    font-family: 'Merriweather';
+}
+
+.bt-form:hover{
+    border: 6px double white;
+    color: white;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+#form-account{
+    background-color: rgb(6, 48, 65);
+    opacity: 0.78;
+    display: block;
+    position: absolute;
+    top: 0.0;
+    max-width: 60%;
+    width: 95%;
+    margin: 0% 20%;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+#form-login{
+    background-color: rgb(6, 48, 65);
+    opacity: 0.78;
+    display: block;
+    position: absolute;
+    top: 0.0;
+    max-width: 40%;
+    width: 95%;
+    margin: 0% 30%;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+#form-account main form{
+    display: grid;
+}
+
+.right-input{
+    width: 45%;
+    float: right;
+}
+
+.left-input{
+    width: 45%;
+    float: left;
+}
+
+.checkbox{
+    display: initial;
+    font-size: 10pt;
+}
+
+.checkbox a:hover{
+    text-decoration: underline;
+}
+
+.link-footer:hover{
+    text-decoration: underline;
+}
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+}
+
+#alert{
+    position: fixed;
+    top: 1.0;
+    right: 50px;
+    border: 3px solid rgb(48, 184, 104);
+    padding: 1rem;
+    background-color: rgba(7, 97, 97, 0.671);
+    display: none;
+}
+
+#alert button{
+    background-color: rgba(7, 97, 97, 0);
+    border: none;
+    padding: 0px;
+    color: white;
+    font-size: 12pt;
+    margin: 0px 5px;
+    border-radius: 100%;
+}
+
+#alert button:hover{
+    background-color: rgba(97, 236, 236, 0.445);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .right-input{
+        width: 95%;
+        display: inline-block;
+    }
+    
+    .left-input{
+        width: 95%;
+        display: inline-block;
+    }
+}

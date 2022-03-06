@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro de usuário | Molfedd</title>
+        <link rel="stylesheet" type="text/css" href="../../css/general.css">
+        <link rel="stylesheet" type="text/css" href="../../css/form.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <br>
+        <br>
+        <br>
+        <div id="particles-js">
+            <div class="body-div-block" id="form-account">
+                <main>
+                    <form method="post">
+                        <a href="home.html">
+                            <figure class="center">
+                                <img src="../../img/logo2.png">
+                            </figure>
+                        </a>
+                        <legend class="center">Cadastro de Usuário:</legend>
+                        <br>
+                        <br>
+                        <fieldset>
+                            <div class="left-input">
+                                <label for="name-c">Nome Completo:*</label><br>
+                                <input type="text" id="name-c" name="name" placeholder="Nome Sobrenome" required>
+                            </div>
+                            <div class="left-input">
+                                <label for="name-u">Nome de Usuário:*</label><br>
+                                <input type="text" id="name-u" name="name-user" placeholder="Nome" required>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="left-input">
+                                <label for="email-u">E-mail:*</label><br>
+                                <input type="email" id="email-u" name="email" placeholder="exemplo@exemplo.com" required>
+                            </div>
+                            <div class="left-input">
+                                <label for="phone-u">Telefone:*</label><br>
+                                <input type="tel" id="phone-u" name="phone" placeholder="(XX) XXXXX-XXXX" required>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="left-input">
+                                <label>Data de nascimento:*</label><br>
+                                <div class="date-input">
+                                    <input type="number" id="dd" name="dia" max="31" min="1" placeholder="DD" required>
+                                    <input type="number" id="mm" name="mes" max="12" min="1" placeholder="MM" required>
+                                    <input type="number" id="aa" name="ano" placeholder="AAAA" required>
+                                </div>
+                            </div>
+                            <div class="left-input">
+                                <label for="sexo-c">Sexo:*</label><br>
+                                <select name="sexo" id="sexo-u">
+                                    <option selected value="não selecionado">Selecione</option>
+                                    <option value="Masculino">Mesculino</option>
+                                    <option value="Feminino">Feminino</option>
+                                    <option value="Outro">Outro</option>
+                                    <option value="Não identificado">Prefiro não dizer</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="left-input">
+                                <label for="senha-u">Senha*</label><br>
+                                <input type="password" id="senha-u" name="senha" placeholder="Senha" required>
+                            </div>
+                            <div class="left-input">
+                                <label for="senha-c">Confirme a senha*</label><br>
+                                <input type="password" id="senha-c" name="senha-conf" placeholder="Senha" required>
+                            </div>
+                        </fieldset>
+                        <br>
+                        <br>
+                        <fieldset>
+                            <input type="checkbox" required><div class="checkbox">Li e concordo com os <a href="terms/terms.html">termos</a> e <a href="terms/privacy.html">política de privacidade</a> do Molfedd.</div>
+                        </fieldset>
+                        <br>                        
+                        <br>
+                        <br>
+                        <button class="bt-form" id="submit" type="submit">Finalizar cadastro</button>
+                        <br>
+                        <br>
+                        <p class="center size-10 txt-tahoma">&copy; Molfedd, 2021. Todos os direitos reservados.</p>
+                    </form>
+                </main>
+            </div>
+            <div id="alert">Mensagem do sistema.<button class="material-icons">close</button></div>
+            <br>
+            <br>
+        </div>
+
+        <a href="#" id="btn-up">
+            <span class="material-icons" id="up-icon">expand_less</span>
+        </a>
+
+        <br>
+        <br>
+    </body>
+    <script src="../../js/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="../../js/particles.min.js"></script>
+    <script type="text/javascript" src="../../js/app.js"></script>
+    <!-- <script src="../../js/particlesjs-config.json"></script> -->
+</html>

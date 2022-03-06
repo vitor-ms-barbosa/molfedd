@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather/Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body{
+    margin: 0px auto;
+    padding: 0;
+    background-color: rgb(6, 48, 65);
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    text-align: left;
+}
+
+footer{
+    font-family: Tahoma;
+    font-size: 10pt;
+    padding: 30px 0px;
+}
+
+#header{
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#body{
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    margin: 10px auto 0px auto;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#draw{
+    float: right;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+#num{
+    width: 150px;
+    height: 150px;
+    border: 8px double white;
+    border-radius: 5px;
+    padding: 30px 15px 5px 15px;
+    margin: auto;
+    font-size: 70pt;
+    transition: 1s ease-in-out;
+}
+
+#body-a, #body-b{
+    display: none;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding: 100px 25px;
+}
+
+#body-a h3{
+    font-size: 35pt;
+    color: rgb(102, 128, 201);
+    font-weight: bold;
+}
+
+#body-b h3{
+    font-size: 35pt;
+    color: rgb(173, 31, 12);
+    font-weight: bold;
+}
+
+#logo{
+    text-align: left;
+    margin: 10px;
+    display: block;
+    width: 40%;
+}
+
+
+#footer{
+    width: 100%;
+}
+
+#footer-div{
+    padding: 10px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#footer-block{
+    display: inline-block;
+    width: 100%;
+}
+
+#footer-txt{
+    display: block;
+    width: 90%;
+    float: right;
+}
+
+#footer-txt p{
+    text-indent: 0.0;
+}
+
+#footer-img{
+    display: block;
+    width: 8%;
+    float: left;
+}
+
+
+
+.flex{
+    display: inline-flex;
+}
+
+.running{
+    float: left;
+    display: flex;
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+}
+
+.p-a{
+    background-color: rgb(9, 83, 168);
+    margin: 3px;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    font-size: 10pt;
+}
+
+.p-b{
+    background-color: rgb(173, 31, 12);
+    margin: 3px;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    font-size: 10pt;
+}
+
+.btn{
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px 30px;
+    background-color: rgb(6, 48, 65);
+    color: white;
+    font-size: 14pt;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+}
+
+.btn:hover{
+    border: 3px solid white;
+    padding: 8px 28px;
+}
+
+.left{
+    display: block;
+    width: 40%;
+    float: left;
+}
+
+.right-btn{
+    position: absolute;
+    top: 25px;
+    right: 10%;
+}
+
+.right{
+    display: block;
+    width: 40%;
+    float: right;
+}
+
+.div-path{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.path{
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 10pt;
+}
+
+.a-path{
+    margin: 0px 2px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: Tahoma;
+}
+
+.a-path:hover{
+    color: rgb(139, 211, 211);
+}
+
+.footer-a{
+    color: white;
+    text-decoration: none;
+    padding: 0pc 20px 0px 0px;
+}
+
+.footer-a:hover{
+    text-decoration: underline;
+}
+
+.block-flex{
+    display: flex;
+}
+
+.fig-rs{
+    display: inline;
+}
+
+.img-rs{
+    opacity: 0.9;
+}
+
+.img-rs:hover{
+    opacity: 1.0;
+    cursor: pointer;
+}

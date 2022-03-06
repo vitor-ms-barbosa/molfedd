@@ -1,0 +1,66 @@
+article section{
+    display: inline-block;
+    margin: 1rem 0rem;
+    padding: 1rem 0rem;
+}
+
+article{
+    margin-bottom: 3rem;
+}
+
+.summary{
+    border: 1px solid #fff;
+    border-radius: 0.3rem;
+}
+
+.summary h2{
+    margin: 0.5rem;
+    margin-left: 1rem;
+}
+
+.summary-links{
+    margin: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.summary-links a{
+    display: inline-block;
+    border-left: 4px solid #fff;
+    margin: 0px 0px;
+    padding: 0.3rem 0.5rem;
+}
+
+
+.summary-links a:hover{
+    border-left: 4px solid rgb(106, 190, 223);
+    color: rgb(106, 190, 223);
+}
+
+table{
+    background-color: #fff;
+    border: 1px solid #fff;
+    width: 90%;
+    margin: 0 auto;
+}
+
+th, tr, td{
+    background-color: rgb(6, 48, 65);
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+table .fab{
+    font-size: 18pt;
+    padding: 0.2rem;
+}
+
+@media screen and (max-width: 900px){
+    .summary{
+        display: none;
+    }
+    table{
+        width: 98%;
+    }
+}
