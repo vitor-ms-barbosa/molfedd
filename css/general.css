@@ -391,6 +391,14 @@ a{
     margin: 1rem 0rem;
 }
 
+.text-topic h3{
+    text-indent: 2rem;
+    margin-top: 1rem;
+}
+
+.text-topic .sub1{
+    margin-left: 2rem;
+}
 
 .supportes-title{
     display: inline-block;

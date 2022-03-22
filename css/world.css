@@ -1,0 +1,105 @@
+.world-logo, .world-logo figure, .world-logo figure img{
+    text-align: center;
+    margin-bottom: 2rem;
+    pointer-events: none;
+}
+
+.topic-span{
+    display: inline-flex;
+    margin: 0.5rem 0rem;
+    margin-top: 1.5rem;
+}
+
+.topic-span span{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    float: left;
+}
+
+.topic-span .material-icons{
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.topic-span .title-span{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.flex-left{
+    display: inline-flex;
+}
+
+.flex-left span{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    float: left;
+}
+
+
+.summary{
+    border: 1px solid #fff;
+    border-radius: 0.3rem;
+    margin-bottom: 2.5rem;
+}
+
+.summary h2{
+    margin: 0.5rem;
+    margin-left: 1rem;
+}
+
+.summary-links{
+    margin: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.summary-links a{
+    display: inline-block;
+    border-left: 4px solid #fff;
+    margin: 0px 0px;
+    padding: 0.3rem 0.5rem;
+}
+
+.img-topic{
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+.img-topic figcaption{
+    font-size: 8pt;
+}
+
+
+.summary-links a:hover{
+    border-left: 4px solid rgb(106, 190, 223);
+    color: rgb(106, 190, 223);
+}
+
+.info-b{
+    background-color: rgba(16, 87, 117, 0.5);
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.important{
+    background-color: rgba(16, 87, 117, 0.5);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 900px){
+    .summary{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .img-topic img{
+        width: 95%;
+    }
+}
